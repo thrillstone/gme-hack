@@ -1,0 +1,25 @@
+body {
+  color: white;
+  font-family: 'Bangers';
+  background-image: url('/static/background.jpg');
+  background-size: cover;
+}
+
+.place {
+  color: green;
+  font-size: 4em;
+  min-width: 120px;
+}
+
+.name, .value {
+  color: white;
+  font-size: 4em;
+}
+
+.name {
+  margin-right: 1em;
+}
+
+.flex {
+  display: flex;
+}

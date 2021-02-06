@@ -1,0 +1,7 @@
+<template>
+  <require from="./app.scss"></require>
+  <h1>Leaderboard</h1>
+  <div class="flex" repeat.for="player of players">
+    <div class="place">${$index + 1}</div> <div class="name">${player.name}</div> <div class="value">$${player.value}</div>
+  </div>
+</template>
